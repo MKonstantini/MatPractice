@@ -1,9 +1,6 @@
-# MatPractice
+# White Space
 
-My practice area for improving/revising my skills.   
-Included topics: 
-- React TypeScript
-- Node
-- UI   
+An abstract place for small projects.   
+Projects showcase skills in both the fontend and backend.
 
 Website by Matan Konstantini.
