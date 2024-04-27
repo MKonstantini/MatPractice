@@ -1,5 +1,10 @@
 @import './variables';
 
-h1 {
-    color: $colorMain;
+.home-title {
+    font-family: 'Permanent Marker';
+    font-size: 3.6rem;
+}
+
+.home-div {
+    text-align: center;
 }
