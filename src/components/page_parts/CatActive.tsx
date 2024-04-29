@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
-interface CatProps { }
+interface CatActiveProps { }
 
-const Cat: React.FunctionComponent<CatProps> = () => {
+const CatActive: React.FunctionComponent<CatActiveProps> = () => {
     const [catImgSrc, setCatImgSrc] = useState<string>('/WS_Cat.svg');
 
     const handleMouseEnter = () => {
@@ -17,7 +17,7 @@ const Cat: React.FunctionComponent<CatProps> = () => {
             <img
                 src={catImgSrc}
                 alt="cat"
-                className="cat-img mb-5"
+                className="home-cat-img mb-5"
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
             />
@@ -25,4 +25,4 @@ const Cat: React.FunctionComponent<CatProps> = () => {
     )
 }
 
-export default Cat
+export default CatActive

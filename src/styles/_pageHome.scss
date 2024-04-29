@@ -1,10 +1,5 @@
 @import './variables';
 
-.home-title {
-    font-family: 'Permanent Marker';
-    font-size: 3.6rem;
-}
-
 .home-div {
     height: 100vh;
     display: flex;
@@ -14,5 +9,13 @@
     div {
         text-align: center;
         margin-bottom: 2rem;
+    }
+}
+
+.home-cat-img {
+    width: 160px;
+
+    &:hover {
+    transform: scale(1.02);
     }
 }

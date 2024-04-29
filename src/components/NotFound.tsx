@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react"
 import Ruler from "./page_parts/Ruler";
-import Cat from "./page_parts/CatActive";
+import CatActive from "./page_parts/CatActive";
 
 interface NotFoundProps { }
 
@@ -10,8 +10,8 @@ const NotFound: FunctionComponent<NotFoundProps> = () => {
             <div>
                 <Ruler />
                 <h1 className='home-title mb-5'>Oops!</h1>
-                <Cat />
-                <h2 className='font2 mb-5'>Page Not Found.</h2>
+                <CatActive />
+                <p className='font2 mb-5'>Page Not Found.</p>
                 <Ruler />
             </div>
         </div>
