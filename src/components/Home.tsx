@@ -9,6 +9,7 @@ const Home: FunctionComponent<HomeProps> = () => {
         <div className='home-div'>
             <div>
                 <Ruler />
+                <p>Welcome Guest To</p>
                 <h1 className='mb-5'>White Space</h1>
                 <CatActive />
                 <p className='mb-5'>An Abstract Place For Small Projects.</p>

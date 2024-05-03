@@ -1,16 +1,30 @@
 $navHeight : 80px;
 
+nav {
+    font-size: 1.5rem;
+    min-height: $navHeight;
+}
+.nav-link {
+  text-decoration: none;
+}
 .page-margins {
   margin-top: $navHeight + 0px;
   margin-bottom: $navHeight + 20px;  
 }
 
-.nav-link {
-  text-decoration: none;
+.button-style, label, input {
+  font-size: 1.45rem;
+  padding: 0 2rem;
+  text-align: center;
 }
-nav {
-    font-size: 1.5rem;
-    min-height: $navHeight;
+.demo-link {
+  cursor: pointer;
+  font-size: 1.45rem;
+  transition: font-size 0.2s ease-in-out;
+}
+.demo-link:hover {
+  font-size: 1.5rem;
+  font-weight: bold;  
 }
 
 .ruler {
